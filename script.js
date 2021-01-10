@@ -1,12 +1,14 @@
-let age = 14
+const age = 14
 document.getElementById('submit').addEventListener('click', number)
-  function number() {
-    ge = document.getElementById('age').value
-if (age > 14) {
-  alert('Too big! try again!')}
-  else if (age < 14) {
-    alert ('Too small! try again!')}
-else {
-  alert('You guess it right!')
-  }
+function number() {
+  age = document.getElementById('age').value
+  if (age > 14) {
+    alert('Too big! try again!')
     }
+  else if (age < 14) {
+    alert ('Too small! try again!')
+    }
+  else {
+    alert('You guess it right!')
+  }
+}
